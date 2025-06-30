@@ -11,6 +11,7 @@ import egovframework.example.common.Criteria;
  * @author user
  *
  */
+@Mapper
 public interface FaqMapper {
 	public List<?> selectFaqList(Criteria criteria); //전체조회
 }
